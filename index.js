@@ -36,16 +36,14 @@ switch (task) {
   case 3:
     globalThis.Player = task3.Player;
     const player3 = new Player("Grog", 4);
-    console.log(player3.info());
+    player3.info();
     break;
   case 4:
     globalThis.Player = task4.Player;
     const player4 = new Player("Grog", 5);
-    const player4LevelIn = player4.info()
-    console.log(player4LevelIn);
+    player4.info()
     player4.levelUp();
-    const player4LevelUp = player4.info()
-    console.log(player4LevelUp);
+    player4.info()
     break;
   case 5:
     globalThis.Player = task5.Player;
